@@ -4,7 +4,8 @@
   "description": "Jacob Nelsen-Epstein's Proxy Server for Yum-ly",
   "main": "server/server.js",
   "scripts": {
-    "test": "'"
+    "webpack": "webpack --mode production --watch",
+    "start": "nodemon ./server/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,10 +17,6 @@
     "url": "https://github.com/yum-ly/Jacob-Proxy/issues"
   },
   "homepage": "https://github.com/yum-ly/Jacob-Proxy#readme",
-  "scripts": {
-    "webpack": "webpack --mode production --watch",
-    "start": "nodemon ./server/server.js"
-  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",

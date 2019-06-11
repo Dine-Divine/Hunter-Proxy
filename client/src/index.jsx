@@ -17,10 +17,10 @@ class Index extends Component{
     render(){
         return(
             <>
-                {<SearchBar /> ? <SearchBar uuid={this.state.uuid} uuidUpdateHandler={this.uuidUpdateHandler} /> : null}
+                {/* {<SearchBar /> ? <SearchBar uuid={this.state.uuid} uuidUpdateHandler={this.uuidUpdateHandler} /> : null} */}
                 {<Reviews /> ? <Reviews uuid={this.state.uuid}/> : null}
-                {<Info /> ? <Info uuid={this.state.uuid} /> : null}
-                {<Recommendations /> ? <Recommendations uuid={this.state.uuid} uuidUpdateHandler={this.uuidUpdateHandler} /> : null}
+                {/* {<Info /> ? <Info uuid={this.state.uuid} /> : null} */}
+                {/* {<Recommendations /> ? <Recommendations uuid={this.state.uuid} uuidUpdateHandler={this.uuidUpdateHandler} /> : null} */}
             </>
         )
     }
